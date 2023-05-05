@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 24px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #d35400;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  text-align: center;
+}
+
+.otp-inputs-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.otp-inputs-container input {
+  margin: 0 16px;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  font-size: 32px;
+  text-align: center;
+  outline: none;
+}
+
+.otp-inputs-container input.active {
+  border: 3px solid white;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.submit-button {
+  background-color: #2980b9;
+}
+
+.submit-button1 {
+  background-color: #16a085;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.submit-button {
+  background-color: #3498db;
+  margin-right: 10px;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+.submit-button1 {
+  background-color: green;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.submit-button1:hover {
+  background-color: rgb(0, 122, 128);
+}
+
+.cancel-button {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.cancel-button:hover {
+  background-color: #2980b9;
+}
